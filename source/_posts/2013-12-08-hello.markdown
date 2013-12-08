@@ -1,0 +1,17 @@
+---
+layout: post
+title: "hello"
+date: 2013-12-08 03:41:51 +0400
+comments: true
+categories: 
+---
+
+Hello!
+
+This is a sample post.
+
+{% if site.example_key %}
+Here is an example to demonstrate how `variables.yml` work:
+
+	example_key == {{ site.example_key }}
+{% endif %}
